@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Who_is</string>
+    <string name="name_placeholder">Mr. Potato</string>
+    <string name="label_false">No cierto</string>
+    <string name="label_true">Si cierto</string>
+    <string name="incorrect">Estas muy wey...</string>
+    <string name="correct">Te rifaste...</string>
+    <string name="user_is_cheat">Eres falso y traicionero</string>
+
+    <string name="woody">Woody</string>
+    <string name="minion">Minion</string>
+    <string name="monalisa">Mona Lisa</string>
+    <string name="score">%d puntos</string>
+    <string name="label_show_answer">Mostrar respuesta</string>
+</resources>

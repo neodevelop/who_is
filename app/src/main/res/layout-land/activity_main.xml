@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="horizontal">
+        <TextView
+            android:id="@+id/text_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score"
+            android:textSize="10pt" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:orientation="horizontal"
+        android:gravity="center">
+        <android.support.design.widget.FloatingActionButton
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/button_false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_false"
+            android:drawableLeft="@drawable/ic_clear"
+            android:src="@drawable/ic_clear"
+            app:backgroundTint="@color/colorWrong"
+            app:elevation="4dp"
+            android:layout_marginLeft="10pt"
+            android:layout_marginRight="10pt"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/character_photo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/placeholder_character"/>
+            <TextView
+                android:id="@+id/text_placeholder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name_placeholder"
+                android:textSize="15pt"/>
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/button_true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="@string/label_true"
+            android:drawableLeft="@drawable/ic_done"
+            android:src="@drawable/ic_done"
+            app:backgroundTint="@color/colorRight"
+            app:elevation="4dp"
+            android:layout_marginLeft="10pt"
+            android:layout_marginRight="10pt"
+            />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/button_cheat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_autorenew"
+        android:src="@drawable/ic_autorenew"
+        app:backgroundTint="@color/colorOmit"
+        app:elevation="4dp"/>
+    />
+
+
+    <!--android.support.design.widget.FloatingActionButton
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/button_omit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:text="@string/label_true"
+        android:drawableLeft="@drawable/ic_action_omit"
+        android:src="@drawable/ic_action_omit"
+        app:backgroundTint="@color/colorOmit"
+        app:elevation="4dp"/-->
+
+</LinearLayout>
